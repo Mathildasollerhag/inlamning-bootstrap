@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-image: url("/images/bg1.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: bottom;
+}
+
+.navbar-nav {
+    flex: 1;
+}
+
+.btn-warning {
+    border-radius: 9px;
+}
+
+.head-text {
+    font-weight: 900;
+    font-size: 2.6rem;
+    line-height: 1.5;
+    
+}
+
+.download {
+    border-radius: 9px;
+}
+
+.m-15 {
+    margin-top: 15rem;
+}
+
+.about {
+    background-color: #ffbb003f;
+    color: #FFBB00;
+}
+
+.about-mobile {
+    margin-left: -8em;
+}
+
+.bg-map {
+    background-image: url("/images/map.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+
+._size {
+    height: auto;
+    width: 70%;
+}
+
+._blue-bg1 {
+    background-image: url("/images/bg3.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+textarea {
+    resize: none;
+}
+
+._send-btn {
+    padding: 0.5rem 5rem;
+    border-radius: 9px;
+}
+
+._blue-bg2 {
+    background-image: url("/images/bg2.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+._border {
+    border: none;
+}
+
+.icon-border {
+    padding: 1rem 1.1rem;
+    border-radius: 7px;
+    background-color: #ffffff1e;
+} 
+
+
+
