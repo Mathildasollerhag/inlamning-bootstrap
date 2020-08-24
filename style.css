@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background-image: url("/images/bg1.png");
+    background-image: url("images/bg1.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body {
 }
 
 .bg-map {
-    background-image: url("/images/map.png");
+    background-image: url("images/map.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body {
 }
 
 ._blue-bg1 {
-    background-image: url("/images/bg3.png");
+    background-image: url("images/bg3.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@ textarea {
 }
 
 ._blue-bg2 {
-    background-image: url("/images/bg2.png");
+    background-image: url("images/bg2.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,6 +91,15 @@ textarea {
     border-radius: 7px;
     background-color: #ffffff1e;
 } 
+
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
 
 
 
