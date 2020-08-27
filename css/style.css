@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background-image: url("images/bg1.png");
+    background-image: url("/images/bg1.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body {
 }
 
 .bg-map {
-    background-image: url("images/map.png");
+    background-image: url("/images/map.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body {
 }
 
 ._blue-bg1 {
-    background-image: url("images/bg3.png");
+    background-image: url("/images/bg3.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@ textarea {
 }
 
 ._blue-bg2 {
-    background-image: url("images/bg2.png");
+    background-image: url("/images/bg2.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,6 +100,47 @@ textarea {
 .navbar-toggler{
     border: none !important;
 }
+
+.case-bg {
+    background-image: url("/images/case1.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.owl-item > div {
+    cursor: pointer;
+    margin: 15% 8%;
+    padding: 10px;
+    transition: margin 0.4s ease;
+}
+
+.owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+    filter: brightness(96%);
+}
+
+._ec {
+    max-width: 200px;
+    height: auto;
+}
+
+.item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.owl-carousel .item.low img {
+    opacity: .6;
+}
+  
+/* MEDIA QUERIES */
+
+@media (max-width: 1879px) {
+    .dots { display: none; } 
+}
+
 
 
 
