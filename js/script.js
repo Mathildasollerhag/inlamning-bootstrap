@@ -2,7 +2,7 @@ new WOW().init();
 
 $(document).ready(function() {
     jQuery.event.special.touchstart = {
-        setup: function( _, ns, handle ){
+        setup: function( _, handle ){
           this.addEventListener("touchstart", handle, { passive: true });
         }
       };
